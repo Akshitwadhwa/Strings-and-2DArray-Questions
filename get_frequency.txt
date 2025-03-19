@@ -1,0 +1,2 @@
+What this question does it finds the element in the given array which has the highest frequency
+It also finds the no.of times that element is coming
