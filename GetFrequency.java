@@ -5,7 +5,7 @@ public class GetFrequency {
       int [] arr= {1,2,1,1,2,1};
       HashMap<Integer, Integer> hm= new HashMap();
       
-      for(int i=0;i<arr.length;i++) {
+      for(int i=0;i<arr.length;i++) { 
     	  if(hm.containsKey(arr[i])) {
     		  int oldFre= hm.get(arr[i]);
     		  hm.put(arr[i], oldFre+1);
